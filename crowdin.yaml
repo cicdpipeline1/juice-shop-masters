@@ -1,6 +1,6 @@
 commit_message: |-
   [ci skip]
-  Signed-off-by: Björn Kimminich <bjoern.kimminich@gmx.de>
+  Signed-off-by: Beyaz Fil <mscy2204@pieas.edu.pk>
 files:
   - source: /frontend/src/assets/i18n/en.json
     translation: /frontend/src/assets/i18n/%locale_with_underscore%.json
