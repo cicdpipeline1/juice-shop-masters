@@ -22,7 +22,8 @@ RUN npm run sbom
 # workaround for libxmljs startup error
 FROM node:20-buster as libxmljs-builder
 WORKDIR /juice-shop
-RUN apt-get update && apt-get install -y build-essential python
+RUN apt-get update 
+RUN apt-get install -y build-essential python
 COPY --from=installer /juice-shop/node_modules ./node_modules
 RUN rm -rf node_modules/libxmljs2/build && \
   cd node_modules/libxmljs2 && \
