@@ -4,7 +4,7 @@ WORKDIR /juice-shop
 RUN npm i -g typescript ts-node
 RUN npm install --omit=dev --unsafe-perm
 RUN npm install --prefer-dedupe typescript ts-node
-RUN npm dedupe
+RUN npm install dedupe
 RUN rm -rf frontend/node_modules
 RUN rm -rf frontend/.angular
 RUN rm -rf frontend/src/assets
