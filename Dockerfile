@@ -34,7 +34,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 LABEL maintainer="Beyaz Fil <mscy2204@pieas.edu.pk>" \
     org.opencontainers.image.title="OWASP Juice Shop" \
-    org.opencontainers.image.description="Probably the most modern and sophisticated insecure web application" \
+    org.opencontainers.image.description="Probably the most sophisticated insecure web application" \
     org.opencontainers.image.authors="Beyaz Fil <mscy2204@pieas.edu.pk>" \
     org.opencontainers.image.vendor="Open Web Application Security Project" \
     org.opencontainers.image.documentation="https://help.owasp-juice.shop" \
